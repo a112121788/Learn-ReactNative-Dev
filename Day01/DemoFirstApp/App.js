@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text} from 'react-native';
 
-export default class App extends Component {
+export default class Demo extends Component {
   render() {
     return (
       <Text>Hello xxx</Text>

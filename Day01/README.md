@@ -2,7 +2,9 @@
 
 - ReactNative 基础
 - Xcode
-- Android
+- Android Studio
+- WebStorm
+
 
 ## ReactNative 基础
 ### [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)

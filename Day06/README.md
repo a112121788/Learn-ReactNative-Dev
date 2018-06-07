@@ -1,0 +1,9 @@
+# 学习要点
+- react-native-calendars
+- react-native-device-info
+- react-native-image-crop-picker
+- react-native-app-intro
+- react-native-fs
+- react-native-wechat
+- react-native-chart
+- react-native-sqlite-storage

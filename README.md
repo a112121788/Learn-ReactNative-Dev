@@ -6,8 +6,7 @@
 - Android Studio
 
 ## Day02
-- 框架
-- 架构
+- 常用组件（Components）
 
 ## Day03
 - 设计模式

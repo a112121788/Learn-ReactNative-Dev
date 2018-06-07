@@ -21,11 +21,29 @@
         "readme.md", 
         "demofirstapp"
     ], 
-    "day01/demofirstapp": [
-        "android", 
-        "ios", 
-        "node_modules"
+    "day04": [
+        "readme.md"
     ], 
+    "__raw_positions": {
+        "day01/demofirstapp/ios": 2, 
+        "day01/demofirstapp/node_modules": 3, 
+        "day02/readme.md": 1, 
+        "learn-reactnative-dev": 2, 
+        "day03": 9, 
+        "day02": 3, 
+        "day01": 4, 
+        "day04/readme.md": 1, 
+        "day07": 5, 
+        "day06": 6, 
+        "day05": 7, 
+        "day04": 8, 
+        "day03/readme.md": 1, 
+        "day01/readme.md": 1, 
+        "day02/demosecondapp": 2, 
+        "day01/demofirstapp": 2, 
+        "day01/demofirstapp/android": 1, 
+        "readme.md": 1
+    }, 
     "__positions": {
         "day01/demofirstapp/ios": 4002002, 
         "day01/demofirstapp/node_modules": 4002003, 
@@ -34,6 +52,7 @@
         "day03": 9, 
         "day02": 3, 
         "day01": 4, 
+        "day04/readme.md": 8001, 
         "day07": 5, 
         "day06": 6, 
         "day05": 7, 
@@ -45,23 +64,9 @@
         "day01/demofirstapp/android": 4002001, 
         "day01/demofirstapp": 4002
     }, 
-    "__raw_positions": {
-        "day01/demofirstapp/ios": 2, 
-        "day01/demofirstapp/node_modules": 3, 
-        "day02/readme.md": 1, 
-        "learn-reactnative-dev": 2, 
-        "day03": 9, 
-        "day02": 3, 
-        "day01": 4, 
-        "day07": 5, 
-        "day06": 6, 
-        "day05": 7, 
-        "day04": 8, 
-        "day03/readme.md": 1, 
-        "day01/readme.md": 1, 
-        "day02/demosecondapp": 2, 
-        "day01/demofirstapp": 2, 
-        "day01/demofirstapp/android": 1, 
-        "readme.md": 1
-    }
+    "day01/demofirstapp": [
+        "android", 
+        "ios", 
+        "node_modules"
+    ]
 }

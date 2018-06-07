@@ -7,6 +7,7 @@
 - ES5
 - ES6
 - props
+- Custom Component
 
 ## ReactNative 基础
 ### [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)
@@ -18,3 +19,5 @@ ES5 <https://babeljs.io/learn-es2015/>
 ES6 <https://github.com/lukehoban/es6features#readme>
 
 ## props
+
+## Custom Component

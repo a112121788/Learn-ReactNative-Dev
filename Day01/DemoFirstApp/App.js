@@ -1,10 +1,22 @@
 import React, {Component} from 'react';
-import {Text, Image} from 'react-native';
+import {View, Text, Image} from 'react-native';
+
+class CustomComponent extends Component {
+  render() {
+    return (
+      <Text>Hello {this.props.name}</Text>
+    )
+  }
+}
+
 
 export default class Demo extends Component {
   render() {
     return (
-      <Image source={{uri: "https://www.baidu.com/img/xinshouye_1aa582c0b96d57852497a8bbc4345f15.png"}} style={{width: 200, height: 100}}></Image>
+      <View style={{alignItems: 'center', paddingTop: 40}}>
+        <CustomComponent name="xxx"/>
+        <CustomComponent name="yyy"/>
+      </View>
     );
   }
 }

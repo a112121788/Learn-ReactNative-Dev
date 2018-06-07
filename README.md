@@ -9,15 +9,23 @@
 - 常用组件（Components）
 
 ## Day03
-- 设计模式
+- State
+- Style
+- Flex
+- Layout Props
+- Handling Text Input
+- Handling Touches
+- Using a ScrollView
+- FlatList
 
 ## Day04
-- 常用库
+- React Native 模块构成
 
 ## Day05
-- 布局&View
-- 布局之外
-
+- react-navigation
+- react-native-elements
+- react-native-vector-icons
+- react-native-image-picker
 
 ## Day06
 框架搭建
@@ -31,3 +39,7 @@
 
 ## Day07
 - 学习资源
+<https://reactnavigation.org/>
+<http://react-china.org/>
+<https://doc.react-china.org/>
+<https://github.com/reactnativecn/react-native-guide>

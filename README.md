@@ -3,7 +3,7 @@
 ## Day01
 - ReactNative 基础
 - Xcode
-- Android
+- Android Studio
 
 ## Day02
 - 框架

@@ -1,53 +1,40 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, {Component} from 'react';
-import {
-  Platform,
-  StyleSheet,
-  ActivityIndicator,
-  Text,
-  View
-} from 'react-native';
+import {Alert, AppRegistry, Text, TextInput, View} from 'react-native';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-  'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-  'Shake or press menu button for dev menu',
-});
+export default class PizzaTranslator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {text: ''};
+  }
 
-type Props = {};
-export default class App extends Component<Props> {
   render() {
     return (
-      <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between'}}>
-        <View style={{width: 50, height: 50, backgroundColor: "#ff0000"}}/>
-        <View style={{width: 50, height: 50, backgroundColor: "#00ff00"}}/>
-        <View style={{width: 50, height: 50, backgroundColor: "#0000ff"}}/>
+      <View style={{padding: 10}}>
+        <TextInput
+          style={{height: 40}}
+          placeholder="Type here to translate!"
+          onChangeText={(text) => {
+            this.setState({text});
+            this.getMoviesFromApiAsync()
+          }}
+        />
+        <Text style={{padding: 10, fontSize: 42}}>
+          {this.state.text.split(' ').map((word) => word && '🍕').join(' ')}
+        </Text>
       </View>
     );
   }
+
+  getMoviesFromApiAsync() {
+    return fetch('https://facebook.github.io/react-native/movies.json')
+      .then((response) => response.json())
+      .then((responseJson) => {
+        Alert.alert(`${responseJson.movies.length}`);
+        return responseJson.movies;
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});

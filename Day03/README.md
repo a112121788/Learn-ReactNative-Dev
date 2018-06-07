@@ -2,6 +2,11 @@
 - State
 - Style
 - Flex
+- Layout Props
+- Handling Text Input
+- Handling Touches
+- Using a ScrollView
+- FlatList
 
 ## State
 ```js
@@ -31,3 +36,7 @@ class Blink extends Component {
 类似CSS，用JS写
 
 ## Flex
+
+## Layout Props
+<https://facebook.github.io/react-native/docs/layout-props.html>
+
